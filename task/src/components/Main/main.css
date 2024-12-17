@@ -1,11 +1,9 @@
 .main {
     width: 80vw;
-    max-width: 60rem;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Change height to min-height */
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 3rem;
+    min-height: 100vh;
+    align-items: stretch;
+    padding: 0 10rem 0 5rem;
     position: relative;
 }
