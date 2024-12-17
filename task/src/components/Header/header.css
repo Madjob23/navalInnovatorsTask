@@ -1,0 +1,36 @@
+header {
+    background: linear-gradient(270deg, #FEAC2F 0%, #9B32AD 33.48%, #381AB2 71.46%, #17082C 102.19%);
+    color: #E6E6E6;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.headerTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.headerInfoList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headerInfoItem {
+    border: 1px solid #6C3FEE;
+    color: #BFBFBF;
+    border-radius: 27px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.5rem;
+}
+
+.headerRight {
+    font-size: 4rem;
+    font-weight: 400;
+}
