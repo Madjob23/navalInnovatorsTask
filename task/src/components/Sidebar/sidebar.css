@@ -1,0 +1,19 @@
+.sidebar {
+    width: 20vw;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#unitSelector {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #E6E6E6;
+}
+
+#unitCompletion {
+    color: rgb(230, 230, 230);
+}
