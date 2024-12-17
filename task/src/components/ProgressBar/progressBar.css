@@ -1,0 +1,28 @@
+.progressBar {
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 75rem;
+    height: 5px;
+}
+
+.bg {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75rem;
+    height: 5px;
+    background-color: #E6E6E6;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.progress {
+    height: 5px;
+    position: relative;
+    background: linear-gradient(270deg, #FF0000 0%, #FEAC2F 19.93%, #32AD6B 40.39%);
+    width: 35%;
+    transition: all 0.5s;
+}
+
