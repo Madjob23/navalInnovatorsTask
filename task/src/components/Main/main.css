@@ -3,16 +3,27 @@
     max-width: 60rem;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh; /* Change height to min-height */
     align-items: center;
     padding-left: 1rem;
     padding-right: 3rem;
+    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: fit-content;
 }
 
 .tabs {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 0.25rem;
 }
 
