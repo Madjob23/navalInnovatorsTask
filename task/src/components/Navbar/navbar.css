@@ -1,0 +1,83 @@
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: fit-content;
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.tab {
+    background-color: #E6E6E6;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 200;
+    height: 2.5rem;
+    align-content: center;
+    cursor: pointer;
+}
+
+.tab:first-child {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.tab:last-child {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.clickedTab {
+    background-color: black;
+    color: white;
+}
+
+.quesNavbar {
+    width: 100%;
+    max-width: 47rem;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+}
+
+.quesNavbarLeft {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.pgNav {
+    margin: 0 0.5rem;
+}
+
+.pgNo {
+    padding: 0.5rem 1.25rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    align-content: center;
+    cursor: pointer;
+    margin: 0 0.25rem;
+}
+
+.pgLeft, .pgRight {
+    color: gray;
+}
+
+#quesFilter {
+    margin-left: auto;
+    border-color: gray;
+    color: gray;
+    width: 9rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+}
