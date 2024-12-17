@@ -2,7 +2,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #F5F5F5;
+    background-color: white;
     width: 100%;
     height: fit-content;
     margin: 0 auto;
@@ -42,7 +42,7 @@ nav {
 }
 
 .quesNavbar {
-    width: 100%;
+    width: 95%;
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
