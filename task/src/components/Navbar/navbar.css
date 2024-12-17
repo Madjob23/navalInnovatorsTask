@@ -5,6 +5,7 @@ nav {
     background-color: #F5F5F5;
     width: 100%;
     height: fit-content;
+    margin: 0 auto;
 }
 
 .tabs {
@@ -42,10 +43,10 @@ nav {
 
 .quesNavbar {
     width: 100%;
-    max-width: 47rem;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 1.5rem auto;
 }
 
