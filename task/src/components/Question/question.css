@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    position: relative; /* Add this */
 }
 
 .summaryTitle {
@@ -44,14 +45,23 @@
     padding: 2rem 1.5rem;
     font-size: 1rem;
     line-height: 2rem;
+    position: relative;
 }
 
 .blur {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1.25rem;
+    padding: 2rem 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,1) 100%);
+    backdrop-filter: blur(5px);
+    height: 80%;
 }
 
 .lockIcon {
@@ -62,8 +72,7 @@
 
 .subscribeBtn {
     padding: 0.75rem 1.5rem;
-    background: radial-gradient(208.33% 262.18% at 102.97% 0%, #FEAC2F 0%, #9B32AD 32.77%, #381AB2 69.93%, #17082C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
+    background: radial-gradient(208.33% 262.18% at 102.97% 0%, #FEAC2F 0%, #9B32AD 32.77%, #381AB2 69.93%, #17082C 100%);
     color: white;
     font-size: 0.8rem;
     border: none;
