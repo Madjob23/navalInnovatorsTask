@@ -1,10 +1,11 @@
 import Header from "./components/Header/header";
-console.log(Header);
+import ProgressBar from "./components/ProgressBar/progressBar";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <ProgressBar />
     </div>
   );
 }
