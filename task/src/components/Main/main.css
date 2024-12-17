@@ -23,6 +23,7 @@
     font-weight: 200;
     height: 2.5rem;
     align-content: center;
+    cursor: pointer;
 }
 
 .tab:first-child {
@@ -35,3 +36,7 @@
     border-bottom-right-radius: 0.5rem;
 }
 
+.clickedTab {
+    background-color: black;
+    color: white;
+}
