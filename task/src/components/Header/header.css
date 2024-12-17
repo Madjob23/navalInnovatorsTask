@@ -8,6 +8,7 @@ header {
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
+    height: 5rem;
 }
 
 .headerTitle {
@@ -31,6 +32,6 @@ header {
 }
 
 .headerRight {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
 }
