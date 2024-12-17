@@ -1,0 +1,72 @@
+.quesContainer {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.ques {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.quesStatement {
+    background-color: #F5F5F5;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.ans {
+    background-color: #F5F5F5;
+    padding: 2rem 1.5rem;
+    font-size: 1rem;
+    line-height: 2rem;;
+}
+
+.summaryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.summaryTitle {
+    background-color: #F5F5F5;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.summary {
+    background-color: #F5F5F5;
+    padding: 2rem 1.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.blur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.lockIcon {
+    object-fit: contain;
+    height: 3rem;
+    width: 3rem;
+}
+
+.subscribeBtn {
+    padding: 0.75rem 1.5rem;
+    background: radial-gradient(208.33% 262.18% at 102.97% 0%, #FEAC2F 0%, #9B32AD 32.77%, #381AB2 69.93%, #17082C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
