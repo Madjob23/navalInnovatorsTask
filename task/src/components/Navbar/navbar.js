@@ -9,22 +9,22 @@ const Navbar = () => {
         setActiveTab(index);
     }
     
-    useEffect(() => {
-        const navElement = navRef.current;
+    // useEffect(() => {
+    //     const navElement = navRef.current;
     
-        const handleScroll = () => {
-            if (navElement) {
-                const scrollPosition = window.scrollY;
-                navElement.style.position = scrollPosition > 0 ? 'fixed' : 'sticky';
-                navElement.style.top = scrollPosition > 0 ? '0' : 'auto';
-            }
-        };
+    //     const handleScroll = () => {
+    //         if (navElement) {
+    //             const scrollPosition = window.scrollY;
+    //             navElement.style.position = scrollPosition > 0 ? 'fixed' : 'sticky';
+    //             navElement.style.top = scrollPosition > 0 ? '0' : 'auto';
+    //         }
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-        window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => {
+    //     window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
   return (
     <>

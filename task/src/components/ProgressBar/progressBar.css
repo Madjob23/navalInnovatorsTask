@@ -1,10 +1,11 @@
 .progressBar {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    left: 0;
+    right: 0;
+    z-index: 1001;
     display: flex;
     margin: 0 auto;
-    width: 100vw;
     max-width: 75rem;
     height: 5px;
 }
