@@ -1,0 +1,29 @@
+.pagenav {
+    border: 1px solid #D9D9D9;
+    border-radius: 0.5rem;
+    height: max-content;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.prev, .next {
+    padding: 1rem 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 7rem;
+}
+
+.prev {
+    border-right: 1px solid #D9D9D9;
+}
+
+.next {
+    border-left: 1px solid #D9D9D9;
+}
+
+.lowerPgNo {
+    display: inline-block;
+    text-align: center;
+    width: 3rem;
+}
