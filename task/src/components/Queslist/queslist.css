@@ -1,0 +1,65 @@
+.quesListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.quesList {
+    width: clac(20vw - 4px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.quesListTitle {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.quesBtn {
+    max-width: 19vw;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #727272;
+    padding: 1rem;
+    border-bottom: 1px solid #F2F2F2;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.clickedQuesBtn {
+    color: black;
+}
+
+.scrollBar {
+    width: 4px;
+    height: 100%;
+    position: relative;
+}
+
+.scroller{
+    background-color: #BDBDBD;
+    height: 20%;
+    width: 4px;
+    position: absolute;
+    top: 0;
+    border-radius: 1rem;
+}
+
+.scrollbg {
+    background-color: #F2F2F2;
+    height: 100%;
+    width: 4px;
+    position: relative;
+    border-radius: 1rem;
+}
