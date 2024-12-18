@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/navalInnovatorsTask/static/css/main.e8e8627a.css",
+    "main.js": "/navalInnovatorsTask/static/js/main.816fc129.js",
+    "index.html": "/navalInnovatorsTask/index.html",
+    "main.e8e8627a.css.map": "/navalInnovatorsTask/static/css/main.e8e8627a.css.map",
+    "main.816fc129.js.map": "/navalInnovatorsTask/static/js/main.816fc129.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8e8627a.css",
+    "static/js/main.816fc129.js"
+  ]
+}
